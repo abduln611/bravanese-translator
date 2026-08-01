@@ -1,0 +1,13 @@
+# Secrets -- never commit real API keys
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS/editor cruft
+.DS_Store
